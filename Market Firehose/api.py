@@ -5,7 +5,7 @@ from motor.motor_asyncio import AsyncIOMotorClient
 import os
 from dotenv import load_dotenv
 
-# run uvicorn api:app --reload --log-level debug to get API running
+# uvicorn api:app --reload --log-level debug to get API running
 
 app = FastAPI()
 
